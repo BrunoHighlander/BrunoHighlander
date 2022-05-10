@@ -5,15 +5,33 @@
         <title>Portfólio - Bruno Highlander</title>
         <style>
             
+            #imagemPerfil {
+                margin-left: 39%;
+            }
             .description {
                 background-color: aquamarine;
                 margin-left: 20px;
+                text-align: center;
             }
-            .skills-list {
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                color: black;
+                text-align: center;
+                background-color: beige;
+            }
+
+            .hskills-list {
                 background-color: rgb(255, 196, 240);
-                margin-left: 20px;                
+                margin-left: 20px;
+                text-align: center;                
             }
             
+            .skills-list {
+                background-color: beige;
+                text-align: center;
+            }
             
 
         </style>
@@ -23,8 +41,10 @@
     </head>
 
     <body>
-        <h1>Bruno Highlander Oliveira</h1>
-        <img src="./Bruno.jpg" width="300px" alt="Foto Bruno com mão no rosto">
+        
+        <h1 class="hskills-list">Bruno Highlander Oliveira</h1>
+        <img id= imagemPerfil
+        src="./Bruno.jpg" width="300px" alt="Foto Bruno com mão no rosto">
         
         <h2 class="description"> Quem sou eu?</h2>
             <p> Mineiro de Belo Horizonte uai. Apaixonado desde criança por games,<br>
@@ -34,22 +54,22 @@
             <p> Sempre buscando evolução pessoal e profissional, decidi mudar de área<br>
                 (mesmo dentro da TI) e aceitar novos desafios.</p>
         
-        <h2 class="skills-list">Habilidades que já domino</h2>        
-        <ul>
+        <h2 class="hskills-list">Habilidades que já domino</h2>        
+        <ul class="skills-list">
             <li>Cloud (Google Drive)    </li>
             <li>Montagem e manutenção de computadores</li>
             <li>Projetos de cabeamento estruturado</li>
             <li>Instalação e configuração de softwares</li>
             <li>Suporte Remoto</li>
         </ul>
-        <h2 class="skills-list">Habilidades que ainda estou estudando</h2>
-            
+        <h2 class="hskills-list">Habilidades que ainda estou estudando</h2>
+        <ul class="skills-list">
             <li>Git/GitHub</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             
-
+        </ul>   
 
         
     
